@@ -1,0 +1,19 @@
+.container{
+    
+   
+    margin: 20px auto;
+    height: 200px;
+}
+
+.parent{
+    display: inline-block;
+    border: 2px solid black;
+    width: 155px;
+    height: 155px;
+    margin: 5px 5px;
+    padding: 2px 2px;
+}
+
+.draggable{
+    opacity: 0.3;
+}

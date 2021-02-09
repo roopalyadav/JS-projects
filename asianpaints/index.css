@@ -1,0 +1,24 @@
+/*write your css*/
+.container
+{
+    
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+    grid-gap: 10px;
+    
+    
+}
+
+.walls
+{
+    border: 1px solid black;
+    margin: 5px 2px;
+    text-align:center;
+    
+    height: 300px;
+}
+
+.button{
+    margin: 10px auto;
+    text-align: center;
+}

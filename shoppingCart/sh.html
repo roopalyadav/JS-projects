@@ -1,0 +1,29 @@
+<body>
+<h1>Grocery List</h1>
+<!--input fields -->
+Name:
+<div>
+<input type="text"  id="item-name-input" name="Name" />
+</div>
+Price:
+<div>
+        
+<input type="number"  id="item-price-input" name="price" />
+</div>
+<br>
+<div>
+        <button onclick="insertItem()" type="submit">Add</button>
+</div>
+<table>
+        <tr>
+             <th>Sr. No.</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tbody id="tbody">
+                <tr><td>Grand Total 0</td></tr>
+        </tbody>
+</table>
+</body>
+
+<script src="sh.js"></script>
